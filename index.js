@@ -27,17 +27,12 @@ function makeInt(n) {
 }
 
 function makeInt(n) {
-  parseInt(n, 10);
-  return n;
-}
-function makeInt(n) {
 var parse = parseInt(n, 10); 
 return parse;
 }
 
 
-
-functionon preserveDecimal(n) {
+function preserveDecimal(n) {
   return (parseFloat(n));
 }
 
