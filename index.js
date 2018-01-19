@@ -30,8 +30,14 @@ function makeInt(n) {
   parseInt(n, 10);
   return n;
 }
+function makeInt(n) {
+var parse = parseInt(n, 10); 
+return parse;
+}
 
-function preserveDecimal(n) {
+
+
+functionon preserveDecimal(n) {
   return (parseFloat(n));
 }
 
